@@ -630,6 +630,198 @@ Marketing precisa comunicar campanhas para:
 * Estoque;
 * Logística.
 
+## Departamentalização
+
+É a forma de dividir a empresa.
+
+Existem diversos tipos.
+
+### 1. Funcional
+
+Agrupa pessoas pela função.
+```
+Empresa
+├── Financeiro
+├── RH
+├── Marketing
+├── TI
+├── Comercial
+```
+É o modelo mais comum.
+### 2. Por produto
+```
+├── Linha A
+├── Linha B
+├── Linha C
+```
+Cada produto possui equipe própria.
+### 3. Por cliente
+```
+Empresa
+├── Pessoa Física
+├── Pessoa Jurídica
+├── Governo
+```
+### 4. Por região
+```
+Empresa
+├── Norte
+├── Nordeste
+├── Sul
+├── Exterior
+```
+### 5. Por processo
+```
+Produção
+↓
+Montagem
+↓
+Qualidade
+↓
+Distribuição
+```
+Muito usado na indústria.
+### 6. Matricial
+O colaborador responde para dois gestores.
+
+Exemplo:
+```
+           Diretor
+          /       \
+ Gerente TI      Gerente Projeto
+         \        /
+        Desenvolvedor
+```
+É comum em empresas de tecnologia e consultorias.
+
+## Tipos de estrutura organizacional
+### 1. Estrutura funcional
+
+Organizada por departamentos especializados.
+
+Vantagens:
+
+* Especialização;
+* Eficiência;
+* Economia de recursos.
+
+Desvantagens:
+
+* Pouca integração entre áreas;
+* Comunicação em "silos".
+
+### 2. Estrutura divisional
+
+Cada divisão possui praticamente todos os departamentos necessários.
+
+Exemplo:
+```
+Divisão Celulares
+Divisão Computadores
+Divisão Tablets
+```
+Cada divisão tem:
+
+* RH;
+* Financeiro;
+* Marketing;
+* Vendas.
+
+### 3. Estrutura matricial
+
+Mistura estrutura funcional e por projetos.
+
+Muito utilizada em:
+
+* Tecnologia;
+* Engenharia;
+* Consultorias.
+
+### 4. Estrutura em rede
+
+A empresa terceiriza várias atividades.
+
+Exemplo:
+
+* Produção terceirizada;
+* Logística terceirizada;
+* Marketing terceirizado.
+
+A empresa atua como coordenadora das operações.
+
+### 5. Estrutura horizontal
+
+Poucos níveis hierárquicos.
+
+Características:
+
+* Autonomia;
+* Equipes multidisciplinares;
+* Decisões rápidas;
+* Menor burocracia.
+
+Muito comum em startups.
+
+## Organograma
+
+É a representação gráfica da estrutura organizacional.
+
+Exemplo:
+```
+CEO
+├── Diretor Financeiro
+│      ├── Contabilidade
+│      └── Tesouraria
+│
+├── Diretor Comercial
+│      ├── Vendas
+│      └── Marketing
+│
+├── Diretor de Operações
+│      ├── Produção
+│      └── Logística
+│
+└── Diretor de TI
+       ├── Infraestrutura
+       ├── Desenvolvimento
+       └── Dados
+```
+
+## Fluxo de comunicação
+
+Pode ocorrer de diferentes formas:
+
+* Vertical descendente: da diretoria para os colaboradores.
+* Vertical ascendente: dos colaboradores para a gestão.
+* Horizontal: entre pessoas do mesmo nível hierárquico.
+* Diagonal: entre diferentes áreas e níveis.
+
+## Relação com a estratégia
+
+A estrutura organizacional deve estar alinhada aos objetivos da empresa.
+
+Exemplos:
+
+* Uma startup pode adotar uma estrutura horizontal para ganhar agilidade.
+* Uma multinacional tende a utilizar estruturas divisionais ou matriciais para coordenar operações em diferentes mercados.
+* Uma fábrica pode organizar-se por processos para otimizar a produção.
+
+## Importância para a Análise de Dados
+
+Para um analista de dados, compreender a estrutura organizacional é essencial porque ela influencia como os dados são gerados, utilizados e compartilhados. Alguns benefícios práticos são:
+
+* Identificar os responsáveis por cada conjunto de dados (data owners);
+* Entender como os processos de negócio atravessam diferentes departamentos;
+* Interpretar corretamente indicadores de desempenho (KPIs) de cada área;
+* Mapear fluxos de informação e gargalos;
+* Facilitar a comunicação com gestores e equipes técnicas;
+* Apoiar a definição de requisitos para projetos de dados e inteligência de negócios.
+
+Por exemplo, ao analisar uma queda nas vendas, um analista pode precisar integrar informações do Comercial, Marketing, Logística, Estoque e Financeiro. Conhecer a estrutura organizacional ajuda a entender como essas áreas se relacionam e quem deve ser envolvido na investigação.
+
+## Resumo
+
+A estrutura organizacional é o modelo que define como uma empresa distribui funções, responsabilidades, autoridade e comunicação para executar suas atividades e atingir seus objetivos. Ela engloba a divisão do trabalho, a hierarquia, a departamentalização, os mecanismos de coordenação e os fluxos de decisão, servindo como base para a gestão eficiente das operações e para o alinhamento entre pessoas, processos e estratégia. Para profissionais de análise de dados, esse conhecimento é fundamental para interpretar o contexto de negócio e transformar dados em informações úteis para a tomada de decisão.
 ---
 
 ## Licença
