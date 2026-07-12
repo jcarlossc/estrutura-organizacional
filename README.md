@@ -1,10 +1,10 @@
 <div align="center">
 
-# RESUMO SOBRE MÉTRICAS E KPIs, NEGÓCIO E ESTRUTURA ORGANIZACIONAL 
+# RESUMO SOBRE MÉTRICAS E KPIs, NEGÓCIO, ESTRUTURA ORGANIZACIONAL E ANÁLISE DE NEGÓCIOS 
 
 ### Análise de Dados 
 
-Conjunto de Métricas e KPIs mais utilizados para Análise de Dados, conceito sobre Estrutura Organizacional e sobre Negócio e seus objetivos.
+Conjunto de Métricas e KPIs mais utilizados para Análise de Dados, conceito sobre Estrutura Organizacional, Negócios e seus objetivos e Análise de Negócios(Business Analysis).
 
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" />
