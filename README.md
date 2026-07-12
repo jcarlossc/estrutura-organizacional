@@ -36,9 +36,7 @@ Diretoria
 
 ## Clientes
 
-Objetivo do departamento
-
-Conhecer o perfil dos clientes, medir fidelização, retenção e comportamento de compra.
+Objetivo: Conhecer o perfil dos clientes, medir fidelização, retenção e comportamento de compra.
 
 | KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
@@ -53,9 +51,7 @@ Conhecer o perfil dos clientes, medir fidelização, retenção e comportamento 
 
 ## Marketing
 
-Objetivo
-
-Atrair potenciais clientes e gerar oportunidades de venda.
+Objetivo: Atrair potenciais clientes e gerar oportunidades de venda.
 
 | KPI |	Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
@@ -68,6 +64,96 @@ Atrair potenciais clientes e gerar oportunidades de venda.
 | Conversão Visitante→Lead | — | Visitantes que viram leads | Leads ÷ Visitantes ×100 | Avaliar captura de leads |
 | Conversão Lead→Cliente | — | Leads que compraram | Clientes ÷ Leads ×100 | Avaliar qualidade dos leads |
 | ROI | Return on Investment | Retorno sobre investimento | (Receita − Investimento) ÷ Investimento ×100 | Medir retorno financeiro |
+
+## Vendas
+
+Objetivo: Converter oportunidades em receita.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| Receita | — | Valor vendido	SUM(Vendas)	Medir faturamento |
+| Número de Pedidos | — | Quantidade de vendas | COUNT(Pedido) | Volume comercial |
+| Ticket Médio | — | Valor médio por pedido | Receita ÷ Pedidos | Avaliar vendas |
+| Taxa de Conversão | — | Oportunidades convertidas | Vendas ÷ Oportunidades ×100 | Eficiência comercial |
+| Receita por Vendedor | — | Média por vendedor | Receita ÷ Nº Vendedores | Avaliar desempenho |
+| Meta Atingida | — | Percentual da meta alcançada | Receita ÷ Meta ×100 | Acompanhar resultados |
+| Ciclo de Venda | — | Tempo médio para vender | Dias Totais ÷ Nº Vendas | Medir agilidade |
+| Cancelamentos | — | Vendas canceladas | Cancelamentos ÷ Pedidos ×100 | Controlar perdas |
+| Upsell | — | Receita de vendas adicionais | Receita Upsell ÷ Receita Total ×100 | Aumentar valor por cliente |
+
+## Produção / Operação
+
+Objetivo: Produzir com qualidade, eficiência e menor custo.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| Produção Total | — | Quantidade produzida | SUM(Unidades) | Medir produção |
+| Eficiência | — | Produção realizada em relação ao planejado | Produzido ÷ Planejado ×100 | Avaliar execução |
+| OEE | Overall Equipment Effectiveness | Eficiência global dos equipamentos | Disponibilidade × Performance × Qualidade | Medir desempenho das máquinas |
+| Retrabalho | — | Produtos refeitos | Retrabalho ÷ Produção ×100 | Medir desperdício |
+| Refugo | — | Produtos descartados | Refugo ÷ Produção ×100 | Avaliar perdas |
+| Produtividade | — | Produção por colaborador | Produção ÷ Funcionários | Medir rendimento |
+| Utilização de Máquinas | — | Tempo efetivo de uso | Tempo Produzindo ÷ Tempo Disponível ×100 | Avaliar capacidade |
+
+## Entrega
+
+Objetivo: Garantir que o produto chegue corretamente e no prazo.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| OTD | On Time Delivery | Entregas no prazo | Entregas no Prazo ÷ Total ×100 | Medir pontualidade |
+| Tempo Médio de Entrega | — | Tempo entre venda e entrega | Dias Totais ÷ Entregas | Avaliar rapidez |
+| Frete Médio | — | Custo médio do frete | Frete Total ÷ Pedidos | Controlar custos |
+| Taxa de Atraso | — | Percentual de atrasos | Entregas Atrasadas ÷ Total ×100 | Melhorar logística |
+| Devoluções | — | Produtos devolvidos | Devoluções ÷ Entregas ×100 | Medir problemas |
+| Avarias | — | Produtos danificados | Avarias ÷ Entregas ×100 | Avaliar qualidade logística |
+
+## Pós-venda
+
+Objetivo: Medir satisfação e fidelização dos clientes.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| NPS | Net Promoter Score | Índice de recomendação | % Promotores − % Detratores | Medir lealdade |
+| CSAT | Customer Satisfaction Score | Índice de satisfação | Clientes Satisfeitos ÷ Total ×100 | Avaliar atendimento |
+| CES | Customer Effort Score | Esforço do cliente | Média das notas da pesquisa | Medir facilidade de atendimento |
+| Tempo | Médio de Atendimento | — | Tempo por chamado | Tempo Total ÷ Chamados | Avaliar eficiência |
+| FCR | First Call Resolution | Resolução no primeiro contato | Casos Resolvidos no Primeiro Contato ÷ Total ×100 | Medir qualidade do suporte |
+| Taxa de Recompra | — | Clientes que voltaram a comprar | Clientes com Nova Compra ÷ Clientes ×100 | Medir fidelização |
+| Churn | — | Clientes perdidos | Clientes Perdidos ÷ Clientes ×100 | Monitorar evasão |
+
+## Financeiro
+
+Objetivo: Garantir sustentabilidade financeira e lucratividade.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| Receita | — | Total faturado | SUM(Vendas) | Medir faturamento |
+| Custos | — | Gastos diretamente ligados à operação | SUM(Custos) | Controlar custos |
+| Despesas | — | Gastos administrativos e operacionais | SUM(Despesas) | Controlar despesas |
+| Lucro Bruto | — | Receita menos custo dos produtos/serviços | Receita − Custo dos Produtos Vendidos | Medir rentabilidade operacional |
+| Lucro Líquido | — | Resultado final após todos os custos e despesas | Receita − Custos − Despesas − Impostos | Avaliar resultado financeiro |
+| Margem Líquida | — | Percentual de lucro sobre a receita | Lucro Líquido ÷ Receita ×100 | Medir rentabilidade |
+| EBITDA | Earnings Before Interest, Taxes, Depreciation and Amortization | Lucro antes de juros, impostos, depreciação e amortização | Lucro Operacional + Depreciação + Amortização | Avaliar desempenho operacional |
+| Fluxo de Caixa | — | Entradas menos saídas de caixa | Entradas − Saídas | Medir liquidez |
+| Inadimplência | — | Contas em atraso | Valores em Atraso ÷ Total a Receber ×100 | Avaliar risco financeiro |
+| Prazo Médio de Recebimento | PMR | Tempo médio para receber dos clientes | Soma dos Dias até Receber ÷ Nº de Recebimentos | Gerenciar capital de giro |
+
+## Diretoria
+
+Objetivo: Acompanhar o desempenho global da empresa e apoiar decisões estratégicas.
+
+| KPI | Sigla | Significado | Fórmula | Objetivo |
+| --- | ----- | ----------- | ------- | -------- |
+| Receita Total | — | Faturamento consolidado | SUM(Vendas) | Medir crescimento |
+| Lucro Líquido | — | Resultado final | Receita − Custos − Despesas | Avaliar desempenho financeiro |
+| Crescimento da Receita | — | Evolução do faturamento | (Receita Atual − Receita Anterior) ÷ Receita Anterior ×100 | Acompanhar expansão |
+| ROI | Return on Investment | Retorno sobre investimentos | (Lucro − Investimento) ÷ Investimento ×100 | Avaliar projetos e investimentos |
+| ROE | Return on Equity | Retorno sobre o patrimônio líquido | Lucro Líquido ÷ Patrimônio Líquido ×100 | Medir retorno aos acionistas |
+| ROA | Return on Assets | Retorno sobre os ativos | Lucro Líquido ÷ Ativos Totais ×100 | Medir eficiência no uso dos ativos |
+| EBITDA | Earnings Before Interest, Taxes, Depreciation and Amortization | Indicador operacional consolidado | Conforme cálculo financeiro | Comparar desempenho entre empresas |
+| Market Share | Participação de Mercado | Participação nas vendas do mercado | Vendas da Empresa ÷ Vendas Totais do Mercado ×100 | Avaliar competitividade |
+| Receita por Funcionário | — | Produtividade da empresa | Receita ÷ Número de Funcionários | Medir eficiência organizacional |
 
 ## Licença
 Este projeto está licenciado sob MIT License.
