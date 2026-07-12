@@ -416,7 +416,219 @@ Uma boa sequência para construir conhecimento é:
 * Análise de mercado
 ---
 
+# 3. ESTRUTURA ORGANIZACIONAL
+A estrutura organizacional é a forma como uma organização divide, organiza, coordena e controla suas atividades, recursos e pessoas para alcançar seus objetivos estratégicos. Ela define quem faz o quê, quem responde a quem, como as decisões são tomadas, como as informações circulam e como os diferentes departamentos trabalham em conjunto.
 
+Em outras palavras, a estrutura organizacional é o "esqueleto" da empresa, estabelecendo a distribuição de responsabilidades, autoridade e comunicação entre todos os níveis da organização.
+
+## Definição técnica
+
+A estrutura organizacional pode ser definida como:
+
+> O conjunto de regras, responsabilidades, cargos, departamentos, níveis hierárquicos, fluxos de comunicação e mecanismos de coordenação que organizam o funcionamento de uma empresa.
+
+Ela procura responder perguntas como:
+
+* Quem toma decisões?
+* Quem executa cada atividade?
+* Quem supervisiona quem?
+* Como os departamentos interagem?
+* Como o trabalho é dividido?
+* Como os recursos são distribuídos?
+
+## Objetivos da estrutura organizacional
+
+Uma boa estrutura busca:
+
+* Organizar o trabalho;
+* Evitar conflitos de responsabilidade;
+* Aumentar a produtividade;
+* Facilitar a comunicação;
+* Melhorar o controle das operações;
+* Permitir crescimento da empresa;
+* Apoiar a estratégia do negócio.
+
+## Principais componentes
+### 1. Divisão do trabalho
+
+É a separação das atividades em tarefas menores.
+
+Exemplo:
+
+Uma empresa de e-commerce pode dividir suas atividades em:
+
+* Compras
+* Estoque
+* Marketing
+* Financeiro
+* Atendimento
+* Logística
+* Tecnologia
+
+Cada área possui responsabilidades específicas.
+
+### 2. Especialização
+
+Cada profissional executa atividades específicas nas quais possui conhecimento.
+
+Exemplo:
+
+Departamento Financeiro
+
+* Contador
+* Analista Financeiro
+* Tesoureiro
+
+Departamento de TI
+
+* Desenvolvedor
+* Cientista de Dados
+* Engenheiro de Dados
+* Analista de Infraestrutura
+
+### 3. Hierarquia
+
+Mostra os níveis de autoridade.
+
+Exemplo:
+```
+Diretor
+    ↓
+Gerente
+    ↓
+Coordenador
+    ↓
+Supervisor
+    ↓
+Analista
+    ↓
+Assistente
+```
+Quanto mais alto o nível, maior o poder de decisão.
+
+### 4. Cadeia de comando
+
+Define para quem cada funcionário responde.
+
+Exemplo:
+```
+Analista
+↓
+Coordenador
+↓
+Gerente
+↓
+Diretor
+```
+Isso evita conflitos de liderança.
+
+### 5. Autoridade
+
+É o poder formal para tomar decisões.
+
+Exemplo:
+
+Um gerente pode:
+
+* Aprovar férias;
+* Contratar pessoas;
+* Definir orçamento;
+* Distribuir tarefas.
+
+### 6. Responsabilidade
+
+É o dever de executar determinada atividade.
+
+Exemplo:
+
+O analista financeiro é responsável por elaborar o fluxo de caixa.
+
+### 7. Delegação
+
+Consiste em transferir autoridade para outra pessoa executar determinada atividade.
+
+Exemplo:
+
+O gerente delega ao coordenador a responsabilidade por acompanhar um projeto.
+
+### 8. Amplitude de controle (span of control)
+
+Representa quantas pessoas um gestor supervisiona diretamente.
+
+Exemplo:
+```
+Gerente
+↓
+Analista A
+Analista B
+Analista C
+Analista D
+Analista E
+```
+Amplitude = 5 colaboradores.
+
+Uma amplitude muito grande pode dificultar a supervisão; uma muito pequena pode aumentar custos administrativos.
+
+### 9. Centralização
+
+As decisões ficam concentradas nos níveis superiores.
+
+Exemplo:
+
+Somente a diretoria pode aprovar compras.
+
+Vantagens:
+
+* Maior controle;
+* Padronização.
+
+Desvantagens:
+
+* Decisões mais lentas;
+* Pouca autonomia.
+
+### 10. Descentralização
+
+As decisões são distribuídas entre vários níveis.
+
+Exemplo:
+
+Cada gerente aprova compras até determinado valor.
+
+Vantagens:
+
+* Rapidez;
+* Autonomia;
+* Inovação.
+
+Desvantagens:
+
+* Menor padronização;
+* Risco de decisões inconsistentes.
+
+### 11. Formalização
+
+Representa o nível de regras existentes.
+
+Uma empresa altamente formalizada possui:
+
+* Procedimentos;
+* Normas;
+* Políticas;
+* Documentação;
+* Manuais.
+
+### 12. Coordenação
+
+É o mecanismo utilizado para integrar os departamentos.
+
+Exemplo:
+
+Marketing precisa comunicar campanhas para:
+
+* Vendas;
+* Estoque;
+* Logística.
 
 ---
 
