@@ -1,12 +1,10 @@
 <div align="center">
 
-# MÉTRICAS E KPIs
+# RESUMO SOBRE MÉTRICAS E KPIs, NEGÓCIO E ESTRUTURA ORGANIZACIONAL 
 
 ### Análise de Dados 
 
-Conjunto de Métricas e KPIs mais utilizados para Análise de Dados
-
-Fluxo de valor de muitas empresas (varejo, indústria, SaaS e e-commerce). Abaixo estão as principais Métricas e KPIs de cada etapa ou departamento, com sigla, definições, fórmulas e objetivo.
+Conjunto de Métricas e KPIs mais utilizados para Análise de Dados, conceito sobre Estrutura Organizacional e sobre Negócio e seus objetivos.
 
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" />
