@@ -822,6 +822,366 @@ Por exemplo, ao analisar uma queda nas vendas, um analista pode precisar integra
 ## Resumo
 
 A estrutura organizacional é o modelo que define como uma empresa distribui funções, responsabilidades, autoridade e comunicação para executar suas atividades e atingir seus objetivos. Ela engloba a divisão do trabalho, a hierarquia, a departamentalização, os mecanismos de coordenação e os fluxos de decisão, servindo como base para a gestão eficiente das operações e para o alinhamento entre pessoas, processos e estratégia. Para profissionais de análise de dados, esse conhecimento é fundamental para interpretar o contexto de negócio e transformar dados em informações úteis para a tomada de decisão.
+
+---
+
+# 4. ANÁLISE DE NEGÓCIOS (Business Analysis)
+Esses conhecimentos fazem parte da análise de negócios (Business Analysis) e da governança de dados (Data Governance). Um analista de dados não trabalha apenas com tabelas e gráficos; ele precisa entender como a empresa funciona para transformar dados em decisões.
+
+## 1. Identificar os responsáveis por cada conjunto de dados (Data Owners)
+Definição
+
+O Data Owner (dono do dado) é a pessoa ou área responsável pela qualidade, regras de negócio e uso de um conjunto de dados.
+
+Ele não é necessariamente quem mantém o banco de dados.
+
+O banco pode ser administrado pela TI, mas o dono da informação normalmente é uma área de negócio.
+
+Por exemplo:
+| Conjunto de dados | Data Owner |
+| ----------------- | ---------- |
+| Clientes | Comercial |
+| Funcionários | RH |
+| Produtos | Compras |
+| Estoque | Logística |
+| Vendas | Comercial |
+| Financeiro | Financeiro |
+
+### Exemplo 1
+
+Você possui a tabela:
+```
+Clientes
+---------
+id
+nome
+cpf
+telefone
+email
+```
+O telefone está errado.
+
+Quem decide qual é o telefone correto?
+
+Não é o DBA.
+
+Não é o Analista de Dados.
+
+É a área Comercial (ou Atendimento), que é dona dessa informação.
+
+### Exemplo 2
+
+Tabela
+```
+Funcionarios
+-----------
+Nome
+Salario
+Cargo
+```
+Você percebe salários incorretos.
+
+Quem deve validar?
+
+O RH.
+
+### Exemplo 3
+
+Tabela
+```
+Produtos
+--------
+Nome
+Preço
+Categoria
+```
+O preço está errado.
+
+Quem decide o preço?
+
+A área Comercial ou Produtos.
+
+### Analogia
+
+Imagine uma biblioteca.
+
+O bibliotecário organiza os livros.
+
+Mas quem escreveu o livro é o autor.
+
+O DBA organiza os dados.
+
+O Data Owner é o "autor" das regras daquele dado.
+
+## 2. Entender como os processos de negócio atravessam diferentes departamentos
+### Definição
+
+Um processo de negócio raramente acontece dentro de apenas um departamento.
+
+Normalmente ele passa por diversas áreas.
+
+### Exemplo: Compra em um e-commerce
+```
+Cliente faz pedido
+↓
+Comercial recebe
+↓
+Financeiro aprova pagamento
+↓
+Estoque separa produto
+↓
+Logística envia
+↓
+Cliente recebe
+```
+Temos cinco departamentos envolvidos.
+
+### Exemplo empresarial
+
+Pedido de compra:
+```
+Solicitação
+↓
+Compras
+↓
+Financeiro
+↓
+Fornecedor
+↓
+Recebimento
+↓
+Estoque
+```
+Cada etapa gera dados diferentes.
+
+### Exemplo bancário
+
+Pedido de empréstimo
+```
+Cliente
+↓
+Agência
+↓
+Análise de crédito
+↓
+Jurídico
+↓
+Financeiro
+↓
+Liberação
+```
+Cada departamento cria informações.
+
+### O que o analista precisa entender?
+* Onde nasce o dado?
+* Onde ele é alterado?
+* Quem utiliza?
+* Quem aprova?
+* Quem depende dele?
+
+## 3. Interpretar corretamente indicadores de desempenho (KPIs)
+### Definição
+
+KPI (Key Performance Indicator) é uma métrica usada para medir se um objetivo está sendo alcançado.
+
+Nem toda métrica é um KPI.
+
+## Exemplo
+
+Uma loja vende: 1000 produtos.
+
+Isso é uma métrica.
+
+Agora:
+
+Meta: 900 vendas
+
+Resultado: 1000 vendas
+
+Agora virou um KPI porque mede desempenho.
+
+## Exemplo prático
+
+Você vê:
+```
+Receita = R$ 8 milhões
+```
+Isso significa pouco.
+
+Agora:
+
+Meta: R$ 10 milhões
+
+Realizado: R$ 8 milhões
+
+Resultado: 80%
+
+Agora faz sentido.
+
+## 4. Mapear fluxos de informação e gargalos
+### Definição
+
+Fluxo de informação é o caminho percorrido pelos dados dentro da empresa.
+
+Gargalo é um ponto onde esse fluxo fica lento ou problemático.
+### Exemplo
+```
+Pedido online
+↓
+ERP
+↓
+Financeiro
+↓
+Estoque
+↓
+Transportadora
+↓
+Cliente
+```
+Se o estoque demora dois dias para atualizar...
+
+Esse é um gargalo.
+
+### Outro exemplo
+```
+Cadastro
+↓
+Validação
+↓
+Aprovação
+↓
+Banco
+↓
+Dashboard
+```
+Se a aprovação demora uma semana...
+
+Há um gargalo
+
+### Como descobrir?
+* Perguntar:
+* Quem gera?
+* Quem recebe?
+* Quanto tempo demora?
+* Quem altera?
+* Onde costuma dar erro?
+
+## 5. Facilitar a comunicação com gestores e equipes técnicas
+### Definição
+
+O analista de dados é frequentemente uma ponte entre quem toma decisões e quem implementa soluções.
+
+### Gestor fala:
+
+"Quero saber quais clientes são mais lucrativos."
+
+### Desenvolvedor entende:
+
+Preciso calcular:
+```
+Lucro
+=
+Receita
+-
+Custos
+```
+### Analista traduz
+
+Precisamos:
+* Tabela de vendas
+* Tabela de custos
+* Tabela de clientes
+* Relacionamentos
+* Regra de cálculo
+
+### Outro exemplo
+
+Gestor:
+
+"Quero clientes ativos."
+
+Analista pergunta:
+
+O que significa "ativo"?
+
+Comprou nos últimos 30 dias?
+
+90 dias?
+
+12 meses?
+
+Sem essa definição, a análise pode estar errada.
+
+## 6. Apoiar a definição de requisitos para projetos de dados e BI
+##Definição
+
+Antes de construir um dashboard ou relatório, é preciso definir claramente o que será entregue.
+
+Esses requisitos evitam retrabalho.
+
+## Exemplo
+
+Gestor pede:
+
+"Quero um dashboard de vendas."
+
+Isso é muito genérico.
+
+O analista deve detalhar.
+
+## Requisitos
+
+Quais indicadores?
+
+Por período?
+
+Por estado?
+
+Por vendedor?
+
+Atualização diária?
+
+Mensal?
+
+Exportação para Excel?
+
+Filtros?
+
+Gráficos?
+
+### Exemplo completo
+
+Pedido inicial:
+
+"Quero acompanhar as vendas."
+
+Após levantamento dos requisitos:
+
+* Receita diária
+* Receita mensal
+* Ticket médio
+* Clientes novos
+* Produtos mais vendidos
+* Comparação com mês anterior
+* Filtro por estado
+* Filtro por vendedor
+* Atualização automática às 6h
+
+Agora existe uma especificação clara para a equipe técnica implementar.
+
+## Exemplo integrando todas as etapas
+
+Imagine que a diretoria deseja um dashboard para acompanhar as vendas.
+
+* Identificar os responsáveis pelos dados: você conversa com o Comercial (vendas), Financeiro (pagamentos) e Logística (entregas) para entender quais dados cada área fornece e quem pode validar inconsistências.
+* Entender o processo de negócio: mapeia o fluxo completo: cliente faz o pedido → pagamento é aprovado → estoque separa o produto → transportadora entrega → financeiro registra a receita.
+* Definir os KPIs: com os gestores, estabelece indicadores como faturamento, ticket médio, percentual de entregas no prazo e taxa de cancelamento.
+Mapear fluxos e gargalos: identifica que os dados de entrega só chegam ao banco uma vez por dia, fazendo com que o dashboard apresente informações defasadas.
+* Facilitar a comunicação: traduz a necessidade do gestor ("quero acompanhar atrasos nas entregas") em requisitos técnicos ("calcular a diferença entre a data prevista e a data efetiva de entrega, por transportadora").
+D* efinir os requisitos do projeto: documenta quais fontes de dados serão utilizadas, quais filtros o dashboard terá, a frequência de atualização, as regras de cálculo dos KPIs e quais usuários terão acesso.
+
+Esse ciclo é comum em projetos de Business Intelligence (BI) e Analytics. Quanto melhor o analista compreender o negócio, mais útil será a solução de dados entregue para a empresa.
+
 ---
 
 ## Licença
