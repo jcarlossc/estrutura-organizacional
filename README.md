@@ -363,7 +363,61 @@ Dados:
 * Lucro
 * Fluxo de caixa
 
-Aqui surgem conceitos fundamentais.
+## O que um analista de dados precisa perguntar antes de criar qualquer gráfico?
+
+Em vez de pensar apenas em "qual gráfico usar?", procure entender o contexto do negócio. Algumas perguntas essenciais são:
+
+* Qual problema a empresa quer resolver?
+* Quem vai usar essa análise?
+* Que decisão será tomada com base nela?
+* Quais indicadores são relevantes?
+* Como medir sucesso?
+* Quais fatores podem influenciar esse resultado?
+* Os dados disponíveis são suficientes e confiáveis?
+
+Essas perguntas ajudam a transformar uma análise descritiva em uma análise útil para a tomada de decisão.
+
+## Um roteiro de estudos em negócios para análise de dados
+
+Uma boa sequência para construir conhecimento é:
+
+### 1. Fundamentos de Administração
+* Estrutura organizacional
+* Áreas funcionais (Marketing, Vendas, Finanças, RH, Operações)
+* Planejamento estratégico
+### 2. Processos de Negócio
+* Cadeia de valor
+* Mapeamento de processos
+* Indicadores de desempenho (KPIs)
+### 3. Finanças para Não Financeiros
+* Receita, custos, despesas e lucro
+* Margem
+* Fluxo de caixa
+* Demonstrativos financeiros básicos
+### 4. Marketing e Vendas
+* Jornada do cliente
+* Funil de vendas
+* Segmentação
+* CAC, LTV, conversão e retenção
+### 5. Operações e Logística
+* Gestão de estoque
+* Compras
+* Produção
+* Supply chain
+### 6. Business Intelligence e Analytics
+* KPIs
+* Dashboards
+* Storytelling com dados
+* Tomada de decisão baseada em dados
+### 7. Estratégia
+* Modelos de negócio
+* Vantagem competitiva
+* Planejamento estratégico
+* Análise de mercado
+---
+
+
+
 ---
 
 ## Licença
