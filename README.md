@@ -1,12 +1,12 @@
 <div align="center">
 
-# KPIs
+# MÉTRICAS E KPIs
 
-### Pipeline Analítico de Vendas  
+### Análise de Dados 
 
-Conjunto de KPIs mais utilizados para Análise de Dados
+Conjunto de Métricas e KPIs mais utilizados para Análise de Dados
 
-Fluxo de valor de muitas empresas (varejo, indústria, SaaS e e-commerce). Abaixo estão os principais KPIs de cada etapa, com definições e fórmulas.
+Fluxo de valor de muitas empresas (varejo, indústria, SaaS e e-commerce). Abaixo estão as principais Métricas e KPIs de cada etapa ou departamento, com sigla, definições, fórmulas e objetivo.
 
 <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-success?style=for-the-badge" />
 <img src="https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge" />
