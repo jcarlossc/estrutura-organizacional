@@ -39,7 +39,7 @@ A sequência a seguir representa praticamente toda a cadeia de valor de uma empr
 
 Objetivo: Conhecer o perfil dos clientes, medir fidelização, retenção e comportamento de compra.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Total de Clientes | — | Quantidade de clientes cadastrados | COUNT(ClientID) | Medir tamanho da base |
 | Clientes Ativos | — | Clientes que compraram no período | COUNT(Clientes que compraram) | Medir engajamento |
@@ -54,7 +54,7 @@ Objetivo: Conhecer o perfil dos clientes, medir fidelização, retenção e comp
 
 Objetivo: Atrair potenciais clientes e gerar oportunidades de venda.
 
-| KPI |	Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI |	Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Leads | — | Pessoas interessadas | COUNT(Leads) | Medir geração de oportunidades |
 | Visitantes | — | Acessos ao site | COUNT(Visitantes) | Medir alcance |
@@ -70,7 +70,7 @@ Objetivo: Atrair potenciais clientes e gerar oportunidades de venda.
 
 Objetivo: Converter oportunidades em receita.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Receita | — | Valor vendido	SUM(Vendas)	Medir faturamento |
 | Número de Pedidos | — | Quantidade de vendas | COUNT(Pedido) | Volume comercial |
@@ -86,7 +86,7 @@ Objetivo: Converter oportunidades em receita.
 
 Objetivo: Produzir com qualidade, eficiência e menor custo.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Produção Total | — | Quantidade produzida | SUM(Unidades) | Medir produção |
 | Eficiência | — | Produção realizada em relação ao planejado | Produzido ÷ Planejado ×100 | Avaliar execução |
@@ -100,7 +100,7 @@ Objetivo: Produzir com qualidade, eficiência e menor custo.
 
 Objetivo: Garantir que o produto chegue corretamente e no prazo.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | OTD | On Time Delivery | Entregas no prazo | Entregas no Prazo ÷ Total ×100 | Medir pontualidade |
 | Tempo Médio de Entrega | — | Tempo entre venda e entrega | Dias Totais ÷ Entregas | Avaliar rapidez |
@@ -113,7 +113,7 @@ Objetivo: Garantir que o produto chegue corretamente e no prazo.
 
 Objetivo: Medir satisfação e fidelização dos clientes.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | NPS | Net Promoter Score | Índice de recomendação | % Promotores − % Detratores | Medir lealdade |
 | CSAT | Customer Satisfaction Score | Índice de satisfação | Clientes Satisfeitos ÷ Total ×100 | Avaliar atendimento |
@@ -127,7 +127,7 @@ Objetivo: Medir satisfação e fidelização dos clientes.
 
 Objetivo: Garantir sustentabilidade financeira e lucratividade.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Receita | — | Total faturado | SUM(Vendas) | Medir faturamento |
 | Custos | — | Gastos diretamente ligados à operação | SUM(Custos) | Controlar custos |
@@ -144,7 +144,7 @@ Objetivo: Garantir sustentabilidade financeira e lucratividade.
 
 Objetivo: Acompanhar o desempenho global da empresa e apoiar decisões estratégicas.
 
-| KPI | Sigla | Significado | Fórmula | Objetivo |
+| MÉTRICA/KPI | Sigla | Significado | Fórmula | Objetivo |
 | --- | ----- | ----------- | ------- | -------- |
 | Receita Total | — | Faturamento consolidado | SUM(Vendas) | Medir crescimento |
 | Lucro Líquido | — | Resultado final | Receita − Custos − Despesas | Avaliar desempenho financeiro |
