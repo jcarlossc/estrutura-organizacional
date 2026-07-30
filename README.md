@@ -15,6 +15,8 @@ Conjunto de Métricas e KPIs mais utilizados para Análise de Dados, conceito so
 
 # 1. MÉTRICAS E KPIs
 
+## Quais as diferenças?
+
 A principal diferença é que uma métrica é um dado bruto e geral, enquanto um KPI é o indicador-chave que mostra se o negócio está atingindo suas metas estratégicas. Todo KPI é uma métrica, mas nem toda métrica é um KPI.
 
 Para entender melhor essa relação e como aplicar cada conceito na prática:
@@ -25,13 +27,13 @@ O que é uma métrica?
 * Função: Monitorar volumes e operações diárias.
 * Exemplos: Número de visitas em um site, quantidade de curtidas em uma rede social ou número de ligações atendidas.
 
-O que é um KPI (Key Performance Indicator)?
+O que é um KPI (Key Performance Indicador)?
 
 * Indicador-chave: É a métrica mais importante para a estratégia da empresa, sempre atrelada a um objetivo e a uma meta temporal.
 * Função: Guiar a tomada de decisão e avaliar o sucesso de um plano.
 * Exemplos: Taxa de conversão de visitantes em clientes, custo de aquisição de clientes (CAC) ou margem de lucro líquido.
 
-Essa sequência representa praticamente toda a cadeia de valor de uma empresa. Os KPIs abaixo são os mais utilizados em empresas de varejo, indústria, e-commerce, SaaS e serviços. Além das fórmulas, é importante entender por que cada KPI existe e como ele apoia decisões
+A sequência a seguir representa praticamente toda a cadeia de valor de uma empresa. Os KPIs abaixo são os mais utilizados em empresas de varejo, indústria, e-commerce, SaaS e serviços. Além das fórmulas, é importante entender por que cada KPI existe e como ele apoia decisões
 
 ## Clientes
 
